@@ -1,7 +1,6 @@
 # Summary
 
 * [笔记简介](README.md)
-* [简介](README.md)
 * Python语言
 * Ansible
 * git
