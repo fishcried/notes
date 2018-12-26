@@ -1,3 +1,4 @@
-# SUMMARY.md
+# Summary
 
-* [简介](README.md)
+* [笔记简介](README.md)
+
