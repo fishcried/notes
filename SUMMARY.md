@@ -1,8 +1,6 @@
 # Summary
 
 * [笔记简介](README.md)
-
-<<<<<<< HEAD
 * [简介](README.md)
 * Python语言
 * Ansible
@@ -19,5 +17,3 @@
 * 中间件
 * 算法与数据结构
 * 攻防
-=======
->>>>>>> 5b9bdc1982c97b5c7bc72460e38f0bb758b32065
