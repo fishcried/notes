@@ -1,2 +1,7 @@
-# Ansible(七) 常用操作与技巧
+# Ansible FQA
 
+**连接时yes/no**
+
+**控制task执行顺序**
+
+**控制task具体执行的机器**
