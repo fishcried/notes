@@ -1,6 +1,6 @@
 # 善用Ansible Role
 
-当一个任务非常复杂时，playbooks的编写一会非常的庞大，以至于没人愿意把一个playbook从头看到尾,更没有原理维护了，当然同伴也不会愿意复用你的，可能更愿意自己新写一个。
+当一个任务非常复杂时，playbooks的编写一会非常的庞大，以至于没人愿意把一个playbook从头看到尾,更没有原理维护了，当然同伴也不会愿意复用你的，可能更愿意自己新写一个。  
 所以出现了role功能，ansible role就是把一个复杂的playbooks模板化，分成不同的目录，每个目录都存放各自的东西，这样一个大任务被拆解开，编写与维护就都简单了。更主要的是你可以直接把你的role开放出来，别人可以复用，从而依靠大家的力量就能打造强大的ansible 角色库。
 
 # 如何书写ansible role
@@ -21,15 +21,14 @@ roles/
 
 当把一个大的playbook做了逻辑拆分，然后对应到上面的布局，当引用role的时候，ansible会做相应幕后的工作:
 
-- /path/roles/x/tasks/main.yml中的tasks都将自动添加到该play中
-- /path/roles/x/handlers/main.yml中的handlers都将添加到该play中
-- /path/roles/x/vars/main.yml中的所有变量都将自动添加到该play中
-- /path/roles/x/meta/main.yml中的所有role依赖关系都将自动添加到roles列表中
-- /path/roles/x/defaults/main.yml中为一些默认变量值，具有最低优先权，在没有其他任何地方指定该变量的值时，才会用到默认变量值
-- task中的copy模块和script模块会自动从/path/roles/x/files寻找文件，也就是根本不需要指定文件绝对路径或相对路径，如src=foo.txt则自动转换为/path/roles/x/files/foo.txt
-- task中的template模块会自动从/path/roles/x/templates/中加载模板文件，无需指定绝对路径或相对路径
-- 通过include包含文件会自动从/path/roles/x/tasks/中加载文件，无需指定绝对路径或相对路径
-
+* /path/roles/x/tasks/main.yml中的tasks都将自动添加到该play中
+* /path/roles/x/handlers/main.yml中的handlers都将添加到该play中
+* /path/roles/x/vars/main.yml中的所有变量都将自动添加到该play中
+* /path/roles/x/meta/main.yml中的所有role依赖关系都将自动添加到roles列表中
+* /path/roles/x/defaults/main.yml中为一些默认变量值，具有最低优先权，在没有其他任何地方指定该变量的值时，才会用到默认变量值
+* task中的copy模块和script模块会自动从/path/roles/x/files寻找文件，也就是根本不需要指定文件绝对路径或相对路径，如src=foo.txt则自动转换为/path/roles/x/files/foo.txt
+* task中的template模块会自动从/path/roles/x/templates/中加载模板文件，无需指定绝对路径或相对路径
+* 通过include包含文件会自动从/path/roles/x/tasks/中加载文件，无需指定绝对路径或相对路径
 
 > 这回是不是就理解了ansible role的宗旨:把配置文件整合到一起并最大程度保证其干净整洁,保证可重用性
 
@@ -45,7 +44,7 @@ dependencies:
   - { role: postgres, dbname: blarg, other_parameter: 12 }
 ```
 
-#  项目布局
+# 项目布局
 
 有了role,整体项目的布局也就很好看了，一般都是下面这个样子。
 
@@ -84,3 +83,6 @@ dependencies:
         monitoring/           # ""
         fooapp/               # ""
 ```
+
+
+
