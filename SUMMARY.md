@@ -1,7 +1,6 @@
 # Summary
 
 * [笔记简介](README.md)
-* Python语言
 * 运维开发
   * SaltStack
     * [saltstack: 一 试水](devops/saltstack1.md)
@@ -16,17 +15,6 @@
     * [Ansible: 五 编写Ansible Role](devops/ansible-roles.md)
     * [Ansible: 六 Ansible常用模块](devops/ansible-common-modules.md)
     * [Ansible: 七 Ansible FQA](devops/ansible-tips.md)
-* git
-* linux系统
-* 网络协议
-* Linux内核
-* 系统优化
-* 架构设计
-* 程序设计
-* 解决方案
-* OpenShift
-* 数据库
-* 中间件
-* 算法与数据结构
-* 攻防
+* Linux系统
+    * [防火墙：玩转iptables](linux/iptables-tips.md)
 

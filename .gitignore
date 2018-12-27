@@ -1,0 +1,7 @@
+*.~
+*.tmp
+_book
+book.json
+*.swp
+*.swo
+*.edx
