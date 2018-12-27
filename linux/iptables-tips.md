@@ -1,17 +1,5 @@
 # 防火墙： 玩转linux iptables
 
-
-<!-- vim-markdown-toc GFM -->
-* [Linux防火墙的核心原理](#linux防火墙的核心原理)
-	* [核心: Netfilter转发框架](#核心-netfilter转发框架)
-	* [Netfilter 接口: iptables](#netfilter-接口-iptables)
-* [防火墙相关命令的使用](#防火墙相关命令的使用)
-* [iptables规则调优策略](#iptables规则调优策略)
-* [常用的规则场景](#常用的规则场景)
-* [变更记录](#变更记录)
-
-<!-- vim-markdown-toc -->
-
 linux的使用者中有很多人还无法纯熟的玩转iptables。网络不通，常会怀疑防火墙，但不能精确的诊断并给出依据。本文总结下iptables，整理下自己的思路。
 
 > 讲个经历: 一次网络延迟问题诊断时，进行了很久也无法找到根源，临组同事说把iptables服务关闭了(在之前的公司曾经遇到过类似问题)。当时就凌乱了，iptables规则排查过，为设置任何规则，默认ACCEPT。重要的是iptables服务关闭是什么意思(我用的是ubuntu)？，我就说iptables不是服务，没法关闭啊，除非把内核模块卸载了，但是卸载了怕出现其他问题（线上环境），然后又把iptables只是个命令，netfilter框架是什么给讲了一遍，同事说， 这个具体的不懂，但是centos上是可以关闭的，问题解决后，我装了一台centos机器，还真有`service iptables stop`命令，实际上就是卸载相关的模块。
