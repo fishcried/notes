@@ -17,4 +17,5 @@
     * [Ansible: 七 Ansible FQA](devops/ansible-tips.md)
 * Linux系统
     * [防火墙：玩转iptables](linux/iptables-tips.md)
-
+* 系统设计
+    * [单点登录与集中权限管理的本质](system-design/the-essence-of-sso-and-pcm.md)
