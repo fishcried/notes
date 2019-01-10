@@ -18,6 +18,7 @@
 * Linux系统
     * [防火墙：玩转iptables](linux/iptables-tips.md)
 * OpenShift
+    * [Openshift架构](openshift/openshift-arch.md)
   * OpenShitf: 1 架构与基本概念
   * OpenShitf: 2 单机环境搭建
   * OpenShitf: 3 集群环境搭建
