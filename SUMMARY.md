@@ -16,12 +16,12 @@
     * [Ansible: 六 Ansible常用模块](devops/ansible-common-modules.md)
     * [Ansible: 七 Ansible FQA](devops/ansible-tips.md)
 * Linux系统
-    * [Linux常见问题FQA](linux/fqa.md)
+    * [Linux常见问题FQA](linux/linux-fqa.md)
     * 软件包管理
-      * [Debian包格式说明](linux/package-manage/debian-package-format.md)
-      * [构建deb软件仓库](linux/package-manage/build-deb-packages.md)
-      * [搭建ubuntu本地源](linux/package-manage/ubuntu-deb-package-usage.md)
-      * [ubuntu下软件包管理](linux/package-manage/ubuntu-package-tools.md)
+      * [Debian包格式说明](linux/packages-manage/debian-package-format.md)
+      * [构建deb软件仓库](linux/packages-manage/build-deb-packages.md)
+      * [搭建ubuntu本地源](linux/packages-manage/ubuntu-deb-package-usage.md)
+      * [ubuntu下软件包管理](linux/packages-manage/ubuntu-package-tools.md)
     * 开启启动与服务管理
       * linux开机启动
       * [systemd](linux/service-manage/systemd-usage.md)
@@ -31,7 +31,7 @@
     * 安全
       * [防火墙：玩转iptables](linux/iptables-tips.md)
       * [gpg使用](linux/gpg-usage.md)
-      * [ssh使用](linux/ssh-usage.md)
+      * [ssh使用](linux/linux-ssh-usage.md)
     * 进程
       * [工具: ps命令使用](linux/performance-or-troubleshoot/ps-usage.md)
     * 网络
