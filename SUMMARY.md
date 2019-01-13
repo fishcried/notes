@@ -15,6 +15,8 @@
     * [Ansible: 五 编写Ansible Role](devops/ansible-roles.md)
     * [Ansible: 六 Ansible常用模块](devops/ansible-common-modules.md)
     * [Ansible: 七 Ansible FQA](devops/ansible-tips.md)
+* 常用工具
+    * [curl命令使用](tools/curl-usage.md)
 * Linux系统
     * [Linux常见问题FQA](linux/linux-fqa.md)
     * 软件包管理
@@ -96,3 +98,15 @@
     * [防火墙：玩转iptables](linux/iptables-tips.md)
 * 系统设计
     * [单点登录与集中权限管理的本质](system-design/the-essence-of-sso-and-pcm.md)
+* OpenShift
+    * [Openshift架构](openshift/openshift-arch.md)
+  * OpenShitf: 1 架构与基本概念
+  * OpenShitf: 2 单机环境搭建
+  * OpenShitf: 3 集群环境搭建
+  * OpenShitf: 4 镜像仓库搭建
+  * OpenShitf: 5 与glusterfs进行对接
+  * OpenShitf: 6 网络状况
+  * OpenShitf: 7 监控系统对接
+  * OpenShitf: 8 日志系统对接
+  * OpenShitf: 9 恢复与备份
+  * OpenShitf: 10 升级
