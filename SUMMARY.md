@@ -16,13 +16,35 @@
     * [Ansible: 六 Ansible常用模块](devops/ansible-common-modules.md)
     * [Ansible: 七 Ansible FQA](devops/ansible-tips.md)
 * Linux系统
+    * [Linux常见问题FQA](linux/fqa.md)
+    * 软件包管理
+      * [Debian包格式说明](linux/package-manage/debian-package-format.md)
+      * [构建deb软件仓库](linux/package-manage/build-deb-packages.md)
+      * [搭建ubuntu本地源](linux/package-manage/ubuntu-deb-package-usage.md)
+      * [ubuntu下软件包管理](linux/package-manage/ubuntu-package-tools.md)
+    * 开启启动与服务管理
+      * linux开机启动
+      * [systemd](linux/service-manage/systemd-usage.md)
+      * [sysinit](linux/service-manage/sysinit-usage.md)
+      * [ubuntu开机启动优化](linux/service-manage/ubuntu-boot-tuning.md)
+      * [ubuntu开机服务管理](linux/service-manage/ubuntu-boot-manage.md)
     * 安全
       * [防火墙：玩转iptables](linux/iptables-tips.md)
+      * [gpg使用](linux/gpg-usage.md)
+      * [ssh使用](linux/ssh-usage.md)
     * 进程
       * [工具: ps命令使用](linux/performance-or-troubleshoot/ps-usage.md)
     * 网络
       * [工具: ss](linux/performance-or-troubleshoot/linux-ss-usage.md)
       * [工具: nc](linux/performance-or-troubleshoot/linux-nc-usage.md)
+      * [工具: wireshark](linux/performance-or-troubleshoot/linux-wireshark-usage.md)
+      * [工具:tcpdump](linux/performance-or-troubleshoot/linux-tcpdump-usage.md)
+      * [工具:ip](linux/performance-or-troubleshoot/linux-ip-usage.md)
+      * [工具:route](linux/performance-or-troubleshoot/linux-route-usage.md)
+      * [工具:dig](linux/performance-or-troubleshoot/linux-dig-usage.md)
+      * [工具:网卡bond](linux/performance-or-troubleshoot/linux-bond-usage.md)
+      * [工具:wget](linux/performance-or-troubleshoot/linux-wget-usage.md)
+      * [工具:vlan](linux/performance-or-troubleshoot/linux-vlan-usage.md)
     * 磁盘
       * [工具: iotop命令使用](linux/performance-or-troubleshoot/iotop-usage.md)
       * [工具: lsof使用](linux/performance-or-troubleshoot/lsof-usage.md)
@@ -54,3 +76,20 @@
     * [内存性能调优： faq](linux/performance-or-troubleshoot/linux-memory-faq.md)
     * [网络性能调优： 总结](linux/performance-or-troubleshoot/linux-network-tuning.md)
     * [性能调优: IO](linux/performance-or-troubleshoot/linux-io-tuning.md)
+* Git使用指南
+    * [git使用指南](git/git-user-guide.md)
+    * [Git FAQ](git/git-faq.md)
+    * Git工作流
+    * [git核心观念原理](git/git-theory.md)
+    * [Git基本配置](git/git-config-sample.md)
+    * [status/diff/log git下练就火眼金睛](git/git-fireeye.md)
+    * [git patch](git/git-patch.md)
+    * [git仓库管理](git/git-repo.md)
+    * [git branch](git/git-branch.md)
+    * [git魔法](git/git-magic.md)
+    * [git merge](git/git_merge.md)
+    * [git rebase用法](git/git-rebase-usage.md)
+    * [git cherry-pick](git/git-cherry-pick.md)
+    * [git review](git/git-review-usage.md)
+    * [Git Submodule](git/git-submodule.md)
+    * [Git参考资源](git/git-docs.md)
