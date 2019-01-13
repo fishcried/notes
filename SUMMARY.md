@@ -15,6 +15,8 @@
     * [Ansible: 五 编写Ansible Role](devops/ansible-roles.md)
     * [Ansible: 六 Ansible常用模块](devops/ansible-common-modules.md)
     * [Ansible: 七 Ansible FQA](devops/ansible-tips.md)
+* 常用工具
+    * [curl命令使用](tools/curl-usage.md)
 * Linux系统
     * [防火墙：玩转iptables](linux/iptables-tips.md)
 * OpenShift
